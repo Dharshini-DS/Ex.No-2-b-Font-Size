@@ -116,13 +116,20 @@ public class MainActivity extends AppCompatActivity {
 ```
 ## Output:
 
-![output](./0.png)
+![0](https://github.com/Dharshini-DS/Ex.No-2-b-Font-Size/assets/93427345/22b8cd73-3b63-4799-9fb1-dfe4d3d3f4c7)
+</br>
 
-![output](./2.png)
+![1](https://github.com/Dharshini-DS/Ex.No-2-b-Font-Size/assets/93427345/f15c274c-dc00-45bd-a265-b55440cdb986)
+</br>
 
-![output](./2.png)
+![2](https://github.com/Dharshini-DS/Ex.No-2-b-Font-Size/assets/93427345/82c14905-da67-49e6-bc1b-37568fc23daf)
+</br>
 
-![output](./2.png)
+![3](https://github.com/Dharshini-DS/Ex.No-2-b-Font-Size/assets/93427345/d22bdae0-3524-44e0-97df-843186853f7b)
+</br>
+
+![4](https://github.com/Dharshini-DS/Ex.No-2-b-Font-Size/assets/93427345/487f21eb-bfa6-4fbb-b4c4-ecdfef05c279)
+</br>
 
 ## Result:
 Thus, the program for android application, Font Size was executed successfully using Android Studio.
