@@ -40,21 +40,80 @@ Step 6:Close the Android project.
 
 ## Program:
  ```
-/*
 Program to Develop an application that uses Font Size using Android Studio .
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Dharshini D.S
+RegisterNumber: 212221230022
+```
+## MainActivity.java:
+```
+package com.example.font;
+
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
+    float font = 24;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        final TextView t1 = findViewById(R.id.textView1);
+        Button b1 = findViewById(R.id.button1);
+        b1.setOnClickListener(view -> {
+            t1.setTextSize(font);
+            font = font+4;
+            if(font==40)
+                font = 20;
+        });
+
+    }
+}
 ```
 
-## MainActivity.java:
-
-
-
-
-
 ## activity_main.xml:
+```
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="70dp"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:gravity="center"
+        android:text="@string/change_font_size"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="300dp"
+        tools:ignore="VisualLintButtonSize"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp" />
+
+
+</RelativeLayout>
+```
 ## Output:
 
 
