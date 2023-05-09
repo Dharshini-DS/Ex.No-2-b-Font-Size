@@ -116,7 +116,8 @@ public class MainActivity extends AppCompatActivity {
 ```
 ## Output:
 
-
+![output](./0.png)
+![output](1.png)
 
 ## Result:
 Thus, the program for android application, Font Size was executed successfully using Android Studio.
